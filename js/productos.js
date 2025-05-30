@@ -4,19 +4,19 @@ const products = {
       name: "Alexa",
       desc: "Asistente inteligente de voz que controla tu casa, responde preguntas y reproduce música.",
       price: 350,
-      img: "../img/alexa.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     },
     {
       name: "Cargador Portátil",
       desc: "Batería externa de alta capacidad para mantener tus dispositivos cargados todo el día.",
       price: 80,
-      img: "../img/battery.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     },
     {
       name: "Mouse",
       desc: "Mouse inalámbrico ergonómico, ideal para trabajo o gaming.",
       price: 60,
-      img: "../img/mouse.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     }
   ],
   "Electrodomésticos": [
@@ -24,13 +24,13 @@ const products = {
       name: "Televisión Plana",
       desc: "Pantalla LED de alta definición, ideal para disfrutar tus películas y series favoritas.",
       price: 1200,
-      img: "../img/tv.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     },
     {
       name: "Horno Eléctrico",
       desc: "Ideal para hornear, asar y recalentar con precisión y eficiencia.",
       price: 600,
-      img: "../img/camera.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     }
   ],
   "Juegos": [
@@ -38,13 +38,13 @@ const products = {
       name: "PlayStation 0",
       desc: "La consola retro definitiva, revive la nostalgia con tecnología del futuro.",
       price: 500,
-      img: "../img/play.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     },
     {
       name: "Controles Inalámbricos",
       desc: "Perfectos para sesiones de juego largas, sin cables que te limiten.",
       price: 150,
-      img: "../img/monopatin.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     }
   ],
   "Música": [
@@ -52,19 +52,19 @@ const products = {
       name: "Tambor",
       desc: "Para acompañar tus ritmos favoritos, ideal para músicos y aficionados.",
       price: 200,
-      img: "../img/tambor.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     },
     {
       name: "Microfono",
       desc: "Micrófono de alta calidad, perfecto para grabaciones y presentaciones en vivo.",
       price: 150,
-      img: "../img/microfono.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     },
     {
       name: "Trompeta",
       desc: "Instrumento de viento de latón, ideal para bandas y orquestas.",
       price: 950,
-      img: "../img/trompeta.gif"
+      img: "https://cdn-icons-png.flaticon.com/128/4671/4671154.png"
     }
   ]
 };
