@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pay | E-Commerce</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/pay.css" />
+</head>
+<body>
+
+  <header>
+    <button onclick="history.back()"><i class="fas fa-arrow-left"></i></button>
+    <h2>Detalles de pago</h2>
+    <div style="position: relative;">
+    </div>
+  </header>
+
+  <div class="product-list"></div>
+
+  <div class="summary">
+    <div class="promo-code">
+      <i class="fas fa-ticket"></i> Descuento
+    </div>
+    <div class="summary-row">
+      <span>Subtotal</span><span>Bs.- 0.00</span>
+    </div>
+    <div class="summary-row">
+      <span>Entrega</span><span style="color: green;">Gratis</span>
+    </div>
+    <div class="summary-row discount">
+      <span>Descuento</span><span>10%</span>
+    </div>
+    <div class="total-line"></div>
+    <div class="summary-total">
+      <span>Total</span><span>Bs.- 0.00</span>
+    </div>
+    <button class="checkout-btn">Realizar Compra</button>
+  </div>
+
+  <script src="js/pay.js"></script>
+</body>
+</html>

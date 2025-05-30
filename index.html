@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#ff4d30">
+
+</head>
+<body>
+  <main class="main-content">
+    <h1>Bienvenido a<br><span>BBB</span></h1>
+
+    <div class="container">
+      <div class="logo-wrapper">
+        <img src="img/logo.png" alt="Logo BBB" class="logo-img" />
+      </div>
+    </div>
+
+    <button class="btn-start" onclick="start()">INICIAR</button>
+  </main>
+
+  <script>
+    function start() {
+      window.location.href = "index2.html";
+    }
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => console.log('SW registrado', reg))
+          .catch(err => console.error('Error al registrar SW', err));
+      });
+    }
+  </script>
+
+</body>
+</html>
